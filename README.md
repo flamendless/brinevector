@@ -4,7 +4,7 @@ A simple vector lua library for everyone for 3D!
 # This is a fork of the brinevector (2D only)
 
 ### Motivation
-I personally like brinevector, because it uses ffi to make structs for vectors instead of using tables, which makes it faster and more efficient, but I also need this for (bump3dpd)[http://github.com/oniietzschan/bump-3dpd)] which needs x,y,z.
+I personally like brinevector, because it uses ffi to make structs for vectors instead of using tables, which makes it faster and more efficient, but I also need this for [bump3dpd](http://github.com/oniietzschan/bump-3dpd) which needs x,y,z.
 ### Compatibility
 BrineVector3D was written for LOVE2D and is accelerated by the ffi module in luajit, but can be used for any luajit program.
 
