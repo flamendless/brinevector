@@ -122,7 +122,7 @@ function Vector3D.axes(order)
 end
 
 function Vector3D.isVector(arg)
-  return ffi.istype("brinevector",arg)
+  return ffi.istype("brinevector3D",arg)
 end
 
 function Vector3D.__add(v1, v2)
@@ -156,7 +156,7 @@ function Vector3D.__unm(v)
 end
 
 function Vector3D.__eq(v1,v2)
-  if (not ffi.istype("brinevector",v2)) or (not ffi.istype("brinevector",v1)) then return false end
+  if (not ffi.istype("brinevector3D",v2)) or (not ffi.istype("brinevector3D",v1)) then return false end
   return v1.x == v2.x and v1.y == v2.y and v1.z == v2.z
 end
 
