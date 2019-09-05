@@ -110,6 +110,10 @@ end
 local iteraxes_lookup = {
   xy = {"x","y"},
   yx = {"y","x"},
+  xz = {"x","z"},
+  zx = {"z","x"},
+  yz = {"y", "z"},
+  zy = {"z","y"}
 }
 local function iteraxes(ordertable, i)
   i = i + 1
